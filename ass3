@@ -1,0 +1,13 @@
+//Write a c program to print x to the power of y value. For example read x and y values from user and print answer.
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+	int x,y,res;
+	printf("enter the value:");
+	scanf("%d",&x);
+	printf("enter the power value:");
+	scanf("%d",&y);
+	res=pow(x,y);
+	printf("\n%d^%d:%d",x,y,res);
+}
