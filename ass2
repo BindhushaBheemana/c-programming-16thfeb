@@ -1,0 +1,16 @@
+//Ass-2:Write a c program to 10 numbers between 1 and 2 (excluding 2)
+#include <stdio.h>
+
+int main() 
+{
+    int i;
+
+    printf("The 10 numbers between 1 and 2  are: ");
+    for (i = 0; i < 10; i++)
+    {
+        float num = (float)i / 10.0 + 1.0;
+        printf("\n%2f ", num);
+    }
+
+    return 0;
+}
