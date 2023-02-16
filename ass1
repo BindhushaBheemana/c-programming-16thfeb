@@ -1,0 +1,16 @@
+//Ass1:Write a c program to print factors of a given number (n).
+#include<stdio.h>
+void main()
+{
+	int n,i;
+	printf(" enter the value of the n:");
+	scanf("%d",&n);
+	printf("factors of the %d are:",n);
+	for(i=1;i<=n;i++)
+	{
+		if(n%i==0)
+		{
+	    	printf("%d ",i);
+    	}
+	}
+}
